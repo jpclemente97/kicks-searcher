@@ -1,0 +1,15 @@
+.btn-gradient {
+    background: linear-gradient(to right, #3b82f6, #8b5cf6);
+    border: none;
+    color: white;
+    transition: background 0.3s ease;
+  }
+  
+  .btn-gradient:hover {
+    background: linear-gradient(to right, #245eda, #7c3aed);
+  }
+  
+  .btn-gradient:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
